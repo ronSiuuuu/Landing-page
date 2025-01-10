@@ -1,0 +1,321 @@
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .inter {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+/* banner */
+.banner-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('/images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.banner-text {
+  color: #FFFFFF;
+  text-align: center;
+ 
+
+  
+  
+}
+.banner-text h1,h2{
+  font-size: 72px;
+  margin: 0;
+}
+.banner-text p{
+  font-size: 32px;
+  margin: 0;
+}
+
+  /* banner end*/
+
+  
+  /* 
+  offer section */
+
+.offer h1{
+  color: #FF0000;
+  font-size: 88px;
+  font-weight: bold;
+  
+
+}
+.offer h3{
+  color: #FF0000;
+  font-size: 24px;
+ 
+}
+.offer h2{
+  font-size: 48px;
+ 
+}
+
+.offer img{
+  background-repeat: no-repeat;
+  width: 802.9px;
+  height: 500px;
+  
+}
+.offer{
+  display: flex;
+margin-left: 300px;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+  /* offer end */
+
+  /* party */
+
+.party{
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),url('/images/Vectorrr.png');
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  width: 1320px;
+  height: 600px;
+  margin: 80px;
+  border-radius: 16px;
+  position: relative;
+}
+.party-text{
+  text-align: center;
+  color: white;
+
+}
+.sub-sticker{
+  position: absolute;
+  right: 150px;
+  top: 70px;
+}
+.party-text h1{
+  font-size: 64px;
+  font-weight: bold;
+
+}
+.party-text p{
+  font-size: 18px;
+}
+.party-text h4{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+  /* party end */
+  .basic-color{
+    color: #FF0000;
+  }
+  /* location */
+  .location{
+    background: linear-gradient(rgb(240, 207, 213) 40%,white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1320px;
+    height: 454px;
+    border-radius: 16px;
+    margin: 80px;
+    text-align: center;
+  }
+  .btn-primary{
+    background-color: #FF0000;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    color: white;
+    font-weight: bold;
+  }
+
+  /* celebration */
+  .Celebration-img{
+    width: 364.84px;
+    height: 364.84px;
+   border: 20px solid #FF0000;
+    border-radius: 50%;
+    padding: 30px;
+    margin-right: 100px;
+   
+    
+    
+  }
+  .Celebration-container{
+    display: flex;
+   
+   
+    align-items: center;
+    
+    
+  }
+  .Celebration-text h3{
+    color: #FF0000;
+    font-size: 24px;
+  }
+  .Celebration-text h1{
+    font-size: 48px;
+    font-weight: bold;
+    
+  }
+  .Celebration-text p{
+    font-size: 20px;
+    margin: 0 auto;
+    
+  }
+  .Celebration-text{
+  
+    margin: 0 auto;
+  }
+  /* sale */
+  .sale-title{
+    font-size: 72px;
+    font-weight: bold;
+  }
+  .holiday-sale{
+    text-align: center;
+    
+  }
+  
+   
+   .holiday-images{
+    background-image:url("/images/Rectangle\ 2.png") ;
+    background-repeat: no-repeat;
+    height: 229px;
+    width: 1320px;
+    position: relative;
+    background-size: cover;
+    margin-left:100px;
+    margin-top: 300px;
+   
+    
+   }  
+   .discount{
+    position: relative;
+    left: 300px;
+    bottom: 600px;
+   }
+   .box{
+    position: relative;
+    bottom: 350px;
+   }
+
+   /* gift */
+  .Gift h3{
+    font-size: 24px;
+    margin-left: 60px; 
+  }
+  .Gift h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: 60px; 
+  }
+  .Gift p{
+    font-size: 20px;
+    margin-left: 60px;
+  }
+   
+ 
+   .gift-item{
+
+    display: flex;
+    
+    flex-wrap: wrap;
+   gap: 10px;
+  justify-content: center;
+  
+   }
+   .Gift{
+    padding: 20px;
+   }
+   /* subscribe */
+   .sub-text{
+    text-align: center;
+   } 
+   .sub-text h1{
+    font-weight: bold;
+   }
+   #email{
+    border-radius: 20px 0px 0px 20px;
+    padding: 10px;
+   border: none;
+   width: 300px;
+   text-align: center;
+    
+   
+   }
+   #btn{
+    background-color: #FF0000;
+    border-radius: 0px 20px 20px 0px;
+    
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    
+   }
+   .subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#fc080814,#eb0c0c16);
+    width: 1320px;
+    height: 616px;
+    margin-left: 70px;
+   }
+   .sub-btn{
+    display: flex;
+   }
+   /* footer */
+   .ending{
+    display: flex;
+    align-items: center;
+   
+    background: linear-gradient(black,black);
+   color: white; 
+   width: 1600px;
+   height: 609px;
+   justify-content: space-between;
+   
+   
+   }
+   /* .address{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    margin-left: 100px; 
+    width: 100%; 
+    padding: 20px; 
+   }
+   .contact{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    
+    margin-right: 100px;
+    width: 100%; 
+    padding: 20px; 
+   } */
+    
+
+  
