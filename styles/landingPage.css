@@ -11,7 +11,7 @@
   }
 /* banner */
 .banner-container{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('/images/Banner\ Image.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
@@ -82,7 +82,7 @@ margin-left: 300px;
   /* party */
 
 .party{
-  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),url('/images/Vectorrr.png');
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),url('../images/Vectorrr.png');
   background-position: center;
   
   background-repeat: no-repeat;
